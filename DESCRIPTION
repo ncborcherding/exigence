@@ -1,0 +1,15 @@
+Package: exigence
+Title: Fix gene symbols that are messed up by Excel
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Nick", family = "Borcherding", role = c("aut", "cre"), email = "ncborch@gmail.com"))
+Description: Fix gene symbols that are messed up by Excel
+License: Apache License 2.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+biocViews: Software, Annotation, Sequencing
+Depends:  R (>= 4.0)
+Imports: 
+Suggests: knitr, rmarkdown, 
+VignetteBuilder: knitr
