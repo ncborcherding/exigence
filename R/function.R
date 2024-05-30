@@ -1,5 +1,6 @@
 #' Automatically detect and change excel gene conversion
 #'
+#' @description
 #'This function will search through the indicated column for errors in auto-conversion
 #'caused by Excel and automatically modify the gene back to the gene symbol.
 #'
@@ -7,7 +8,9 @@
 #' @param data The data frame with genetic information, can be expression or differential analysis.
 #' @param gene.Column The header for the column where the genes are located, leave as NULL if genes are row names.
 #' @param mouse Boolean. If data is of mouse gene symbols put TRUE.
-
+#'
+#' @return data frame
+#' @export
 
 
 
