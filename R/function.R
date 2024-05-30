@@ -16,9 +16,9 @@
 
 exTerminate <- function(data, gene.Column = NULL, mouse = FALSE) {
   if (mouse) {
-    reference <- get("reference_MM")
+    reference <- get("data/reference_MM")
   } else {
-    reference <- get("reference_HS")
+    reference <- get("data/reference_HS")
   }
   if (is.null(gene.Column)) {
     if (all(is.numeric(data[,1][!is.na(data[,1])]))) {
