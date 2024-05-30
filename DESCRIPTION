@@ -3,7 +3,7 @@ Title: Fix gene symbols that are messed up by Excel
 Version: 0.0.2
 Authors@R: c(
     person(given = "Nick", family = "Borcherding", role = c("aut", "cre"), email = "ncborch@gmail.com"),
-    person(given = "Alyssa", family = "Obermayer", role = "ctb", email = "alyssa.obermayer@moffitt.org"))
+    person(given = "Alyssa", family = "Obermayer", role = c("ctb"), email = "alyssa.obermayer@moffitt.org"))
 Description: Fix gene symbols that are messed up by Excel
 License: Apache License 2.0
 Encoding: UTF-8
