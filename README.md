@@ -12,6 +12,6 @@ I would share if anyone is interested.
 
 ```
   file <- read.csv("data.frame) 
-  file <- exTerminate(file, gene.Column = NULL) #for genes in row names  
-  file <- exTerminate(file, gene.Colum = "genes") #for genes in "genes" vector
+  file <- exTerminate(file, gene.Column = NULL, mouse = FALSE) #for genes in row names and human data
+  file <- exTerminate(file, gene.Colum = "genes", mouse = TRUE) #for genes in "genes" vector and mouse data
 ```
