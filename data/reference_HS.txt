@@ -25,29 +25,3 @@ Exc_Genes	Gene_Symbol
 14-Sep	SEPT14
 1-Dec	DEC1
 2-Dec	DEC2
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	

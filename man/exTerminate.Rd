@@ -4,15 +4,19 @@
 \alias{exTerminate}
 \title{Automatically detect and change excel gene conversion}
 \usage{
-exTerminate(data, gene.Column = NULL)
+exTerminate(data, gene.Column = NULL, mouse = FALSE)
 }
 \arguments{
-\item{data}{The data frame with genetic information, can be expession or differential analysis.}
+\item{data}{The data frame with genetic information, can be expression or differential analysis.}
 
 \item{gene.Column}{The header for the column where the genes are located, leave as NULL if genes are row names.}
+
+\item{mouse}{Boolean. If data is of mouse gene symbols put TRUE.}
+}
+\value{
+data frame
 }
 \description{
 This function will search through the indicated column for errors in auto-conversion
-caused by Excel and automatically modify the gene back to the gene symbol. As of now
-this function only works for Human genes.
+caused by Excel and automatically modify the gene back to the gene symbol.
 }
